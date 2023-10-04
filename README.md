@@ -4,6 +4,23 @@
 
 This project leverages machine learning techniques to enhance the performance of a CAD (Computer-Aided Detection) system used in identifying skin diseases. The system utilizes various algorithms and models to analyze skin lesion images, making it a valuable tool for accurate diagnosis and treatment planning.
 
+## Dataset
+
+To solve this probem, we can use the HAM10000 ("Human Against Machine with 10000 training images") dataset. This curated collection comprises 10,015 dermatoscopic images sourced from diverse populations and captured using various modalities. It serves as an invaluable resource for academic machine learning endeavors, particularly in the field of dermatology.
+
+The dataset encompasses a comprehensive representation of seven pivotal diagnostic categories within the domain of pigmented lesions:
+
+1. **Actinic keratoses and intraepithelial carcinoma / Bowen's disease (akiec)**
+2. **Basal cell carcinoma (bcc)**
+3. **Benign keratosis-like lesions (solar lentigines / seborrheic keratoses and lichen-planus like keratoses, bkl)**
+4. **Dermatofibroma (df)**
+5. **Melanoma (mel)**
+6. **Melanocytic nevi (nv)**
+7. **Vascular lesions (angiomas, angiokeratomas, pyogenic granulomas and hemorrhage, vasc)**
+
+For detailed information and access to the dataset, kindly refer to the [Kaggle page](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000).
+
+
 ## Key Components
 
 ### Data Preprocessing and Augmentation
